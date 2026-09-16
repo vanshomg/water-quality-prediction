@@ -54,7 +54,7 @@ water-quality-prediction/
 ## Setup
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/vanshomg/water-quality-prediction.git
 cd water-quality-prediction
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate

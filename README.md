@@ -129,7 +129,3 @@ These are the actual 5-fold cross-validated results produced by the notebook (no
 
 Shreyansh Lohumi · Vansh Dewan · Rudhinandan Patel · Ankit Kumar Jha · Soumyadeep Nath
 Supervisor: Dr. Vivek Jain — VIT Bhopal University
-
-## License
-
-Add a license of your choice (e.g., MIT) if you want others to freely reuse this code.

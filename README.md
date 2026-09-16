@@ -82,7 +82,11 @@ Linear/Logistic Regression, KNN, SVR/SVM, Decision Tree, Random Forest, Gradient
 
 ## Results
 
-These are the actual 5-fold cross-validated results produced by the notebook (not projected figures):
+These are the actual 5-fold cross-validated results produced by the notebook (not projected figures).
+
+### Regression — predicting WQI
+
+![Regression R² comparison across all models](images/regression_r2_comparison.png)
 
 **Classical regression (predicting WQI)**
 
@@ -98,6 +102,10 @@ These are the actual 5-fold cross-validated results produced by the notebook (no
 | LightGBM | 3.69 ± 0.16 | 5.00 ± 0.48 | 0.15 ± 0.11 |
 | XGBoost | 3.77 ± 0.14 | 5.13 ± 0.33 | 0.10 ± 0.12 |
 | Decision Tree | 4.73 ± 0.25 | 6.06 ± 0.28 | -0.27 ± 0.26 |
+
+### Classification — potability tier
+
+![Classification F1 comparison across all models](images/classification_f1_comparison.png)
 
 **Classical classification (potability tier)**
 
@@ -129,3 +137,7 @@ These are the actual 5-fold cross-validated results produced by the notebook (no
 
 Shreyansh Lohumi · Vansh Dewan · Rudhinandan Patel · Ankit Kumar Jha · Soumyadeep Nath
 Supervisor: Dr. Vivek Jain — VIT Bhopal University
+
+## License
+
+MIT — see [LICENSE](LICENSE).

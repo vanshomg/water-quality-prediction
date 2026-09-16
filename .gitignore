@@ -1,0 +1,27 @@
+# OS junk
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Editor / IDE settings
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+env/
+.venv/
+
+# CatBoost auto-generated training logs (regenerated every run)
+catboost_info/
+
+# Environment / secrets
+.env
+
+# OS-level swap/temp files
+*.swp
+*~
